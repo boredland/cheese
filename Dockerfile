@@ -1,3 +1,3 @@
-FROM nginx:1.25.3-alpine
+FROM nginx:1.31.5-alpine
 ARG CHEESE
 COPY ./cheeses/${CHEESE} /usr/share/nginx/html
